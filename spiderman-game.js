@@ -131,7 +131,7 @@ SpidermanGame.prototype.load = function() {
 	}
 	this.ctx = this.canvas.getContext("2d");
 	this.canvas.height = 400;
-	this.canvas.width = 711;
+	this.canvas.width = 700;
 
 	var menu = document.createElement("div");
 	menu.innerHTML = 
